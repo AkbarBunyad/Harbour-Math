@@ -4,14 +4,14 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 12.083333333333334
+                "correct": 20
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 10.083333333333334
+                "correct": 10
             }
         },
         {
@@ -25,28 +25,28 @@
             "path": "/texts/course/1. Linear Algebra/2. Matrices/config.yml",
             "status": {
                 "total": 17,
-                "correct": 2.0833333333333335
+                "correct": 2
             }
         },
         {
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
                 "total": 73,
-                "correct": 2
+                "correct": 10
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
             "status": {
                 "total": 48,
-                "correct": 2
+                "correct": 5
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/config.yml",
             "status": {
                 "total": 25,
-                "correct": 0
+                "correct": 5
             }
         },
         {
@@ -276,12 +276,12 @@
             "path": "/texts/course/1. Linear Algebra/2. Matrices/2. Matrix Product/config.yml",
             "status": {
                 "total": 2,
-                "correct": 0.5,
+                "correct": 0,
                 "selectedVariantIds": [
-                    2,
-                    0,
                     1,
-                    3
+                    0,
+                    3,
+                    2
                 ]
             }
         },
@@ -289,11 +289,16 @@
             "path": "/texts/course/1. Linear Algebra/2. Matrices/3. Matrix Product/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0.5833333333333334,
+                "correct": 1,
                 "selectedVariantIds": [
                     7,
                     11,
-                    5
+                    5,
+                    2,
+                    6,
+                    1,
+                    4,
+                    10
                 ]
             }
         },
@@ -372,24 +377,56 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/3. Deriving Derivatives lvl 2/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/4. Deriving derivatives lvl 3/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/5. Deriving Derivatives lvl 4/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
             }
         },
         {
@@ -436,48 +473,151 @@
             "path": "/texts/course/2. Calculus/2. Integrals/1. Integrals Table/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/2. Integral is Antiderivative Proof/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/3. Integration by Parts Proof/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/4. Approximate Integral Calculation (Rectangles)/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/5. Approximate Integral Calculation (Trapezoids)/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/2. Calculus/2. Integrals/6. Integrals Practice/config.yml",
             "status": {
-                "total": 1,
+                "total": 20,
                 "correct": 0,
-                "selectedVariantIds": []
+                "testStatus": [],
+                "error": [
+                    "[NbClientApp] Executing .laborantum/texts/course/2. Calculus/2. Integrals/6. Integrals Practice/task.ipynb",
+                    "C:\\Users\\user\\anaconda3\\lib\\site-packages\\zmq\\_future.py:693: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\r",
+                    "  self._get_loop()\r",
+                    "[NbClientApp] Executing notebook with kernel: python3\r",
+                    "Traceback (most recent call last):\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\Scripts\\jupyter-execute-script.py\", line 10, in <module>\r",
+                    "    sys.exit(main())\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\jupyter_core\\application.py\", line 283, in launch_instance\r",
+                    "    super().launch_instance(argv=argv, **kwargs)\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\traitlets\\config\\application.py\", line 1074, in launch_instance\r",
+                    "    app.initialize(argv)\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\traitlets\\config\\application.py\", line 118, in inner\r",
+                    "    return method(app, *args, **kwargs)\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\cli.py\", line 114, in initialize\r",
+                    "    [self.run_notebook(path) for path in self.notebooks]\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\cli.py\", line 114, in <listcomp>\r",
+                    "    [self.run_notebook(path) for path in self.notebooks]\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\cli.py\", line 157, in run_notebook\r",
+                    "    client.execute()\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\jupyter_core\\utils\\__init__.py\", line 165, in wrapped\r",
+                    "    return loop.run_until_complete(inner)\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\asyncio\\base_events.py\", line 649, in run_until_complete\r",
+                    "    return future.result()\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\client.py\", line 705, in async_execute\r",
+                    "    await self.async_execute_cell(\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\client.py\", line 1058, in async_execute_cell\r",
+                    "    await self._check_raise_for_error(cell, cell_index, exec_reply)\r",
+                    "  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\client.py\", line 914, in _check_raise_for_error\r",
+                    "    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\r",
+                    "nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\r",
+                    "------------------\r",
+                    "import numpy as np\r",
+                    "import matplotlib.pyplot as plt\r",
+                    "import json_tricks\r",
+                    "\r",
+                    "answer = {}\r",
+                    "------------------\r",
+                    "\r",
+                    "\r",
+                    "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m\r",
+                    "\u001b[1;31mModuleNotFoundError\u001b[0m                       Traceback (most recent call last)\r",
+                    "Cell \u001b[1;32mIn[1], line 1\u001b[0m\r",
+                    "\u001b[1;32m----> 1\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mnumpy\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mnp\u001b[39;00m\r",
+                    "\u001b[0;32m      2\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mmatplotlib\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mpyplot\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mplt\u001b[39;00m\r",
+                    "\u001b[0;32m      3\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mjson_tricks\u001b[39;00m\r",
+                    "\r",
+                    "\u001b[1;31mModuleNotFoundError\u001b[0m: No module named 'numpy'\r",
+                    "\r",
+                    ""
+                ]
             }
         },
         {
