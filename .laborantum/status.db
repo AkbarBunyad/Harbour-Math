@@ -4,14 +4,14 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 26.88095238095238
+                "correct": 26.80952380952381
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 13.880952380952381
+                "correct": 13.80952380952381
             }
         },
         {
@@ -25,7 +25,7 @@
             "path": "/texts/course/1. Linear Algebra/2. Matrices/config.yml",
             "status": {
                 "total": 17,
-                "correct": 5.880952380952381
+                "correct": 5.80952380952381
             }
         },
         {
@@ -334,17 +334,16 @@
             "path": "/texts/course/1. Linear Algebra/2. Matrices/6. Invertible Matrices/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0.21428571428571427,
+                "correct": 0.14285714285714285,
                 "selectedVariantIds": [
-                    11,
                     8,
-                    12,
                     3,
                     5,
                     1,
                     2,
                     7,
-                    0
+                    11,
+                    9
                 ]
             }
         },
