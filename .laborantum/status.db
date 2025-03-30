@@ -4,21 +4,21 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 27.595238095238095
+                "correct": 42.595238095238095
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 14.595238095238095
+                "correct": 29.595238095238095
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
                 "total": 33,
-                "correct": 8
+                "correct": 23
             }
         },
         {
@@ -245,10 +245,200 @@
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/config.yml",
             "status": {
+                "correct": 15,
                 "total": 15,
-                "correct": 0,
-                "testStatus": [],
-                "error": "[NbClientApp] Executing .laborantum/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/task.ipynb\r\nC:\\Users\\user\\anaconda3\\lib\\site-packages\\zmq\\_future.py:693: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\r\n  self._get_loop()\r\n[NbClientApp] Executing notebook with kernel: python3\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\user\\anaconda3\\Scripts\\jupyter-execute-script.py\", line 10, in <module>\r\n    sys.exit(main())\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\jupyter_core\\application.py\", line 283, in launch_instance\r\n    super().launch_instance(argv=argv, **kwargs)\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\traitlets\\config\\application.py\", line 1074, in launch_instance\r\n    app.initialize(argv)\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\traitlets\\config\\application.py\", line 118, in inner\r\n    return method(app, *args, **kwargs)\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\cli.py\", line 114, in initialize\r\n    [self.run_notebook(path) for path in self.notebooks]\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\cli.py\", line 114, in <listcomp>\r\n    [self.run_notebook(path) for path in self.notebooks]\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\cli.py\", line 157, in run_notebook\r\n    client.execute()\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\jupyter_core\\utils\\__init__.py\", line 165, in wrapped\r\n    return loop.run_until_complete(inner)\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\asyncio\\base_events.py\", line 649, in run_until_complete\r\n    return future.result()\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\client.py\", line 705, in async_execute\r\n    await self.async_execute_cell(\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\client.py\", line 1058, in async_execute_cell\r\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\r\n  File \"C:\\Users\\user\\anaconda3\\lib\\site-packages\\nbclient\\client.py\", line 914, in _check_raise_for_error\r\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\r\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\r\n------------------\r\nimport numpy as np\r\nimport json_tricks\r\nimport lovely_numpy as ln\r\n------------------\r\n\r\n\r\n\u001b[1;31m---------------------------------------------------------------------------\u001b[0m\r\n\u001b[1;31mModuleNotFoundError\u001b[0m                       Traceback (most recent call last)\r\nCell \u001b[1;32mIn[1], line 1\u001b[0m\r\n\u001b[1;32m----> 1\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mnumpy\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mnp\u001b[39;00m\r\n\u001b[0;32m      2\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mjson_tricks\u001b[39;00m\r\n\u001b[0;32m      3\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mlovely_numpy\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mln\u001b[39;00m\r\n\r\n\u001b[1;31mModuleNotFoundError\u001b[0m: No module named 'numpy'\r\n\r\n"
+                "testStatus": [
+                    {
+                        "name": "root -> vectors -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> vectors -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> vectors -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> vectors -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> shapes -> 0 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> shapes -> 1 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> shapes -> 2 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> shapes -> 3 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> reshaped -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lovely -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lovely -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lovely -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lovely -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
             }
         },
         {
